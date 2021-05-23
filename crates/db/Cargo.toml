@@ -1,0 +1,9 @@
+[package]
+name = "discord-bots-db"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+diesel = { version = "1.4", features = ["postgres"] }
+dotenv = "0.15"
+chrono = "0.4"
